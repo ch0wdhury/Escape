@@ -1,0 +1,593 @@
+/* Font File Integration */
+@font-face {
+    font-family: Cubano-Regular;
+    src: url(../fonts/Cubano-Regular.ttf);
+}
+@font-face {
+    font-family: Brandon_light;
+    src: url(../fonts/Brandon_light.ttf);
+}
+@font-face {
+    font-family: Brandon_reg;
+    src: url(../fonts/Brandon_reg.ttf);
+}
+@font-face {
+    font-family: Brandon_med;
+    src: url(../fonts/Brandon_med.ttf);
+}
+@font-face {
+    font-family: Brandon_bld;
+    src: url(../fonts/Brandon_bld.ttf);
+}
+/* Font File Integration */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.30), 
+      rgba(0, 0, 0, 0.30)),
+    url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 620px;
+}
+
+/* Header Start */
+header {
+	margin-top: 50px;
+}
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	overflow: hidden;
+	width: 20%;
+	float: left;
+}
+.logo i {
+	width: 15%;
+	float: left;
+	font-size: 25px;
+	color: white;
+}
+.logo h1 {
+	width: 40%;
+	float: left;
+	font-family: Cubano-Regular;
+	font-size: 25px;
+	color: white;
+	font-weight: inherit;
+
+}
+.menu {
+	width: 40%;
+	float: right;
+}
+.menu ul {
+	float: left;
+	list-style: none;
+}
+.menu ul li {
+	float: left;
+	padding-left: 30px;
+	display: block;
+}
+.menu ul li:first-child {
+	padding-left: 0px;
+}
+.menu ul li a{
+	font-family: Brandon_med;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	transition: .5s ease;
+}
+.menu ul li a:hover{
+	color: #B4B4B4;
+}
+/* Header End */
+
+/* Banner Start */
+.banner {
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.banner_text {
+	text-align: center;
+}
+.banner_text p {
+	font-family: Brandon_light;
+	font-size: 32px;
+	color: white;
+	margin-bottom: 30px;
+}
+.banner_text h1 {
+	font-family: Brandon_bld;
+	font-size: 66px;
+	color: white;
+	margin-bottom: 70px;
+}
+.banner_text button {
+	font-family: Brandon_bld;
+	font-size: 23px;
+	font-weight: inherit;
+	color: white;
+	background: transparent;
+	border: 3px solid white;
+	border-radius: 3px;
+	padding: 10px 50px;
+	transition: 0.5s ease;
+}
+.banner_text button:hover {
+	border: 3px solid #B4B4B4;
+}
+/* Banner End */
+
+/* Service Start */
+.service_top {
+	background-color: #FFF8DA;
+	overflow: hidden;
+	padding-top: 100px;
+}
+.service_top1 {
+	overflow: hidden;
+	margin-bottom: 150px;
+}
+.service_text1 {
+	width: 60%;
+	float: left;
+}
+.service_text1 h1 {
+	font-family: Brandon_light;
+	font-size: 60px;
+	font-weight: inherit;
+}
+.bold-text {
+	font-family: Brandon_bld;
+}
+.service_text1 p {
+	font-family: Brandon_reg;
+	font-size: 18px;
+}
+.service_image1 {
+	width: 30%;
+	float: right;
+}
+.service_top2 {
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.service_image2 {
+	width: 30%;
+	float: left;
+	margin-top: 40px;
+}
+.service_text2 {
+	width: 60%;
+	float: right;
+}
+.service_text2 h1 {
+	font-family: Brandon_light;
+	font-size: 60px;
+	font-weight: inherit;
+}
+.service_text2 p {
+	width: 90%;
+	font-family: Brandon_reg;
+	font-size: 18px;
+}
+.service_down {
+	background-color: #FFFFE1;
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+.service_bottom {
+	overflow: hidden;
+}
+.offerings_left {
+	width: 45%;
+	overflow: hidden;
+	float: left;
+	margin-bottom: 50px;
+}
+.offer_image {
+	width: 10%;
+	float: left;
+	position: relative;
+	border: 1px solid black;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: black;
+}
+.offer_text {
+	width: 80%;
+	float: right;
+}
+.offerings_right {
+	width: 45%;
+	overflow: hidden;
+	float: right;
+	margin-bottom: 50px;
+}
+.offer_text h2 {
+	font-family: Brandon_med;
+	font-size: 22px;
+	font-weight: inherit;
+}
+.offer_text p {
+	font-family: Brandon_reg;
+	font-size: 18px;
+	font-weight: inherit;
+}
+.offer_image img {
+	position: absolute;
+	top: 10px;
+	left: 34%;
+	margin:0 auto;
+	display: block;
+}
+.bximg img {
+	position: absolute;
+	top: 16px;
+	left: 22%;
+	margin:0 auto;
+	display: block;
+}
+.mbl img {
+	position: absolute;
+	top: 15px;
+	left: 25%;
+	margin:0 auto;
+	display: block;
+}
+.cmr img {
+	position: absolute;
+	top: 20px;
+	left: 21%;
+	margin:0 auto;
+	display: block;
+}
+.str img {
+	position: absolute;
+	top: 13px;
+	left: 23%;
+	margin:0 auto;
+	display: block;
+}
+.pgt img {
+	position: absolute;
+	top: 18px;
+	left: 26%;
+	margin:0 auto;
+	display: block;
+}
+/* Service End */
+
+/* Client's Testimony Start */
+.testimonial {
+	background-color: #FFF8DA;
+	padding-top: 90px;
+}
+.testimonial_top {
+	text-align: center;
+}
+.testimonial_top h1 {
+	font-family: Brandon_light;
+	font-size: 60px;
+	font-weight: inherit;
+}
+.testimonial_top p {
+	font-family: Brandon_reg;
+	font-size: 22px;
+	font-weight: inherit;
+	margin-bottom: 40px;
+}
+.testimonial1 {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.client_image1 {
+	float: left;
+	width: 220px;
+	height: 220px;
+	border: 1px solid black; 
+	border-radius: 50%;
+	background-color: black;
+	margin-right: 50px;
+}
+.client_message1 {
+	width: 55%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.client_message1 h4 {
+	font-family: Brandon_reg;
+	font-size: 26px;
+	color: #807667;
+	background-color: #FFFDDF;
+	font-weight: inherit;
+	position: absolute;
+	top: 70px;
+	left: 10px;
+}
+.client_message1 p {
+	font-family: Brandon_reg;
+	font-size: 20px;
+	font-weight: inherit;
+	color: #838EAB;
+	background-color: #FFFDDF;
+	position: absolute;
+	top: 150px;
+	left: 40px;
+}
+.testimonial2 {
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+.client_image2 {
+	float: right;
+	width: 220px;
+	height: 220px;
+	border: 1px solid black; 
+	border-radius: 50%;
+	background-color: black;
+	margin-left: 70px;
+}
+.client_message2 {
+	width: 55%;
+	float: right;
+	text-align: center;
+	position: relative;
+}
+.client_message2 h4 {
+	font-family: Brandon_reg;
+	font-size: 26px;
+	color: #807667;
+	background-color: #FFFDDF;
+	font-weight: inherit;
+	position: absolute;
+	left: 0;
+	top: 70px;
+}
+.client_message2 p {
+	font-family: Brandon_reg;
+	font-size: 20px;
+	font-weight: inherit;
+	color: #838EAB;
+	background-color: #FFFDDF;
+	position: absolute;
+	top: 150px;
+	left: 20px;
+}
+/* Client's Testimony End */
+
+/* Team Members */
+.team {
+	background-color: #13110D;
+	padding-top: 90px;
+}
+.team_top {
+	text-align: center;
+}
+.team_top h1 {
+	font-family: Brandon_light;
+	font-size: 60px;
+	color: #FFFDDF;
+	font-weight: inherit;
+}
+.team_top p {
+	font-family: Brandon_reg;
+	font-size: 22px;
+	color: #807667;
+	font-weight: inherit;
+	margin-bottom: 40px;
+}
+.team_content {
+	width: 85%;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto;
+}
+.member_image {
+	height: 224px;
+	width: 224px;
+	border:8px solid white;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.member_name {
+	font-weight: inherit;
+	color: white;
+}
+.member_name h6 {
+	font-family: Brandon_bld;
+	font-size: 18px;
+	font-weight: inherit;
+}
+.member_name p {
+	font-family: Brandon_reg;
+	font-size: 18px;
+	font-weight: inherit;
+	margin-bottom: 10px;
+}
+.member_social {
+	margin-bottom: 50px;
+}
+.member_social i {
+	height:25px;
+	width: 35px;
+	font-size: 18px;
+	color: white;
+	border:3px solid white;
+	border-radius: 50%;
+	padding-top: 8px;
+	transition: 0.5s ease;
+}
+.member_social a i {
+	text-decoration: none;
+}
+.member_social .fa-facebook-f:hover {
+	color: #4285F4;
+	border-color: #4285F4;
+}
+.member_social .fa-twitter:hover {
+	color: #1DCAFF;
+	border-color: #1DCAFF;
+}
+.member_social .fa-pinterest-p:hover {
+	color: #C8232C;
+	border-color: #C8232C;
+}
+.member_social .fa-google:hover {
+	color: #4285F4;
+	border-color: #4285F4;
+}
+.team_member1 {
+	width: 33%;
+	margin: 0 auto;
+	float: left;
+}
+.team_member2 {
+	width: 33%;
+	margin: 0 auto;
+	float: left;
+}
+.team_member3 {
+	width: 33%;
+	margin: 0 auto;
+	float: left;
+}
+.team_bottom {
+	width: 65%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.team_bottom p {
+	font-family: Brandon_reg;
+	font-size: 20px;
+	color: #FCE9CD;
+	font-weight: inherit;
+	text-align: center;
+}
+/* Team Members */
+
+/* Footer Start */
+footer {
+	background-color: #838EAA;
+	padding-top: 100px;
+	color: white;
+}
+.footer_left {
+	width: 45%;
+	float: left;
+	padding-bottom: 100px;
+}
+.footer_left h1 {
+	font-family: Brandon_light;
+	font-size: 60px;
+	color: #FFFDDF;
+	font-weight: inherit;
+	margin-bottom: 10px;
+}
+.footer_left p {
+	font-family: Brandon_reg;
+	font-size: 18px;
+	text-align: left;
+	color: #FFFDDF;
+	font-weight: inherit;
+}
+.footer_contact {
+	overflow: hidden;
+}
+.contact_left {
+	width: 40%;
+	float: left;
+}
+.contact_left ul {
+	overflow: hidden;
+	float: left;
+}
+.contact_left ul li {
+	list-style: none;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+.contact_left ul li i {
+	float: left;
+	font-size: 24px;
+	margin-right: 12px;
+}
+.contact_left ul li p {
+	float: right;
+	font-family: Brandon_reg;
+	font-size: 18px;
+	font-weight: inherit;
+}
+.contact_right {
+	width: 45%;
+	float: right;
+}
+.contact_right ul {
+	overflow: hidden;
+	float: left;
+}
+.contact_right ul li {
+	list-style: none;
+	float: left;
+	display: block;
+}
+.contact_right ul li i {
+	font-size: 24px;
+	margin-right: 12px;
+}
+.contact_right ul li p {
+	font-family: Brandon_reg;
+	font-size: 18px;
+	font-weight: inherit;
+}
+.footer_right {
+	width: 45%;
+	float: right;
+	margin-top: 30px;
+	padding-bottom: 100px;
+}
+.footer_right input {
+	width: 430px;
+	height: 40px;
+	font-family: Brandon_reg;
+	font-size: 18px;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+textarea {
+	width: 430px;
+	font-family: Brandon_reg;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+footer hr {
+	width: 70%;
+	border:.3px solid #949EB6;
+	margin:0 auto;
+	margin-bottom: 40px;
+}
+footer p {
+	font-family: Brandon_med;
+	font-size: 16px;
+	font-weight: inherit;
+	text-align: center;
+	padding-bottom: 40px;
+}
+/* Footer End */
