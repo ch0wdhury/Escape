@@ -306,7 +306,6 @@ header {
 .client_message1 {
 	width: 55%;
 	float: left;
-	text-align: center;
 	position: relative;
 }
 .client_message1 h4 {
@@ -317,7 +316,7 @@ header {
 	font-weight: inherit;
 	position: absolute;
 	top: 70px;
-	left: 10px;
+	left: 40px;
 }
 .client_message1 p {
 	font-family: Brandon_reg;
@@ -327,7 +326,7 @@ header {
 	background-color: #FFFDDF;
 	position: absolute;
 	top: 150px;
-	left: 40px;
+	left: 50px;
 }
 .testimonial2 {
 	overflow: hidden;
@@ -345,7 +344,6 @@ header {
 .client_message2 {
 	width: 55%;
 	float: right;
-	text-align: center;
 	position: relative;
 }
 .client_message2 h4 {
@@ -366,9 +364,29 @@ header {
 	background-color: #FFFDDF;
 	position: absolute;
 	top: 150px;
-	left: 20px;
+	left: 10px;
 }
 /* Client's Testimony End */
+
+/* Sponsors' Portion */
+.sponsors {
+	background-color: #FFFFE1;
+	min-height: 150px;
+}
+.sponsor_wrapper {
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.sponsor_logo {
+	width: 25%;
+	float: left;
+}
+.sponsor_logo img {
+	width: 80%;
+}
+/* Sponsors' Portion */
 
 /* Team Members */
 .team {
