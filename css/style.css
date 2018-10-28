@@ -25,6 +25,8 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* For Background Image */
 body {
 	background: 
 	linear-gradient(
@@ -36,6 +38,7 @@ body {
 	background-position: center;
 	height: 620px;
 }
+/* For Background Image */
 
 /* Header Start */
 header {
@@ -48,12 +51,12 @@ header {
 }
 .logo {
 	overflow: hidden;
-	width: 20%;
+	width: 30%;
 	float: left;
 	display: block;
 }
 .logo i {
-	width: 15%;
+	width: 10%;
 	float: left;
 	font-size: 25px;
 	color: white;
@@ -67,23 +70,18 @@ header {
 	color: white;
 	font-weight: inherit;
 	display: block;
-
 }
 .menu {
-	width: 40%;
+	width: 60%;
 	float: right;
 }
 .menu ul {
-	float: left;
+	float: right;
 	list-style: none;
 }
 .menu ul li {
 	float: left;
-	margin-left: 30px;
-	display: inline-block;
-}
-.menu ul li:first-child {
-	margin-left: 0px;
+	margin-left: 35px;
 }
 .menu ul li a{
 	font-family: Brandon_med;
@@ -134,7 +132,7 @@ header {
 /* Banner End */
 
 /* Service Start */
-.service_top {
+.service {
 	background-color: #FFFFFF;
 	overflow: hidden;
 	padding-top: 100px;
@@ -163,7 +161,7 @@ header {
 	width: 30%;
 	float: right;
 }
-.service_center {
+.for_bg {
 	background-color: #FAFAFA;
 	overflow: hidden;
 	padding-top: 50px;
@@ -191,14 +189,6 @@ header {
 	width: 90%;
 	font-family: Brandon_reg;
 	font-size: 18px;
-}
-.service_down {
-	background-color: #FFFFFF;
-	padding-top: 100px;
-	padding-bottom: 50px;
-}
-.service_bottom {
-	overflow: hidden;
 }
 .offerings_left {
 	width: 45%;
