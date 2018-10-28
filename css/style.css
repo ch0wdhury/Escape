@@ -508,7 +508,7 @@ header {
 
 /* Footer Start */
 footer {
-	background-color: #838EAA;
+	background-color: #7690C5;
 	padding-top: 100px;
 	color: white;
 }
@@ -604,7 +604,7 @@ textarea {
 }
 footer hr {
 	width: 70%;
-	border:.3px solid #949EB6;
+	border: .9px solid #829CCE;
 	margin:0 auto;
 	margin-bottom: 40px;
 }
