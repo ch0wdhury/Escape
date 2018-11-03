@@ -50,21 +50,22 @@ header {
 	overflow: hidden;
 }
 .logo {
-	overflow: hidden;
-	width: 30%;
+	width: 20%;
 	float: left;
 	display: block;
+	overflow: hidden;
 }
 .logo i {
-	width: 10%;
+	width: 20%;
 	float: left;
 	font-size: 25px;
 	color: white;
 	display: block;
+	overflow: hidden;
 }
 .logo h1 {
-	width: 40%;
-	float: left;
+	width: 80%;
+	float: right;
 	font-family: Cubano-Regular;
 	font-size: 25px;
 	color: white;
@@ -72,7 +73,7 @@ header {
 	display: block;
 }
 .menu {
-	width: 60%;
+	width: 70%;
 	float: right;
 }
 .menu ul {
