@@ -52,25 +52,6 @@ header {
 .logo {
 	width: 20%;
 	float: left;
-	display: block;
-	overflow: hidden;
-}
-.logo i {
-	width: 20%;
-	float: left;
-	font-size: 25px;
-	color: white;
-	display: block;
-	overflow: hidden;
-}
-.logo h1 {
-	width: 80%;
-	float: right;
-	font-family: Cubano-Regular;
-	font-size: 25px;
-	color: white;
-	font-weight: inherit;
-	display: block;
 }
 .menu {
 	width: 70%;
